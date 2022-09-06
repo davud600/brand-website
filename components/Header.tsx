@@ -26,13 +26,8 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a className="nav-link   scrollto" href="#portfolio">
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#team">
-                Team
+              <a className="nav-link scrollto" href="#contact">
+                Contact
               </a>
             </li>
             <li className="dropdown">
@@ -78,13 +73,13 @@ export default function Header() {
               </ul>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#contact">
-                Contact
+              <a className="getstarted scrollto" href="#about">
+                Get Started
               </a>
             </li>
             <li>
-              <a className="getstarted scrollto" href="#about">
-                Get Started
+              <a className="nav-link scrollto" href="#contact">
+                Log In
               </a>
             </li>
           </ul>
