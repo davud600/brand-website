@@ -5,7 +5,7 @@ export default function Header() {
     <header id="header" className="fixed-top">
       <div className="container d-flex align-items-center">
         <h1 className="logo me-auto">
-          <a href="index.html">Arsha</a>
+          <a href="#">RLD</a>
         </h1>
 
         <nav id="navbar" className="navbar">
@@ -73,12 +73,12 @@ export default function Header() {
               </ul>
             </li>
             <li>
-              <a className="getstarted scrollto" href="#about">
-                Get Started
+              <a className="getstarted scrollto" href="/register">
+                Create Account
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#contact">
+              <a className="nav-link scrollto" href="/login">
                 Log In
               </a>
             </li>

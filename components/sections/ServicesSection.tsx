@@ -7,16 +7,16 @@ export default function ServicesSection() {
         <div className="section-title">
           <h2>Services</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
+            We provide services such as tutoring for students who are learning
+            programming in Java (Mainly college students but it can be anyone of
+            any age). We provide web development lessons, from HTML and CSS all
+            the way to web design, javascript and backend coding
           </p>
         </div>
 
         <div className="row">
           <div
-            className="col-xl-3 col-md-6 d-flex align-items-stretch"
+            className="col-xl-4 col-md-6 d-flex align-items-stretch"
             data-aos="zoom-in"
             data-aos-delay="100">
             <div className="icon-box">
@@ -24,17 +24,17 @@ export default function ServicesSection() {
                 <i className="bx bxl-dribbble"></i>
               </div>
               <h4>
-                <a href="">Lorem Ipsum</a>
+                <a href="">Web Development Lessons</a>
               </h4>
               <p>
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi
+                Learn how to design and make a website from scratch, or just
+                learn the essentials like HTML, CSS and Javascript
               </p>
             </div>
           </div>
 
           <div
-            className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+            className="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
             data-aos="zoom-in"
             data-aos-delay="200">
             <div className="icon-box">
@@ -42,35 +42,17 @@ export default function ServicesSection() {
                 <i className="bx bx-file"></i>
               </div>
               <h4>
-                <a href="">Sed ut perspici</a>
+                <a href="">Java Lessons</a>
               </h4>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore
+                Get on a call and learn Java together with other people,
+                learning will be professional but also fun
               </p>
             </div>
           </div>
 
           <div
-            className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
-            data-aos="zoom-in"
-            data-aos-delay="300">
-            <div className="icon-box">
-              <div className="icon">
-                <i className="bx bx-tachometer"></i>
-              </div>
-              <h4>
-                <a href="">Magni Dolores</a>
-              </h4>
-              <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+            className="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
             data-aos="zoom-in"
             data-aos-delay="400">
             <div className="icon-box">
@@ -78,11 +60,11 @@ export default function ServicesSection() {
                 <i className="bx bx-layer"></i>
               </div>
               <h4>
-                <a href="">Nemo Enim</a>
+                <a href="">Website</a>
               </h4>
               <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis
+                We will build a website for you. A professional good looking
+                website with tons of features
               </p>
             </div>
           </div>

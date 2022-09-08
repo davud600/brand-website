@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <footer id="footer">
-        <div className="footer-newsletter">
+        {/* <div className="footer-newsletter">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-6">
@@ -21,22 +21,21 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="footer-top">
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-contact">
-                <h3>Arsha</h3>
+                <h3>RLD</h3>
                 <p>
-                  A108 Adam Street <br />
-                  New York, NY 535022
+                  Pristine, <br />
+                  Kosovo
                   <br />
-                  United States <br />
                   <br />
-                  <strong>Phone:</strong> +1 5589 55488 55
+                  <strong>Phone:</strong> +383 49 619 934
                   <br />
-                  <strong>Email:</strong> info@example.com
+                  <strong>Email:</strong> rld@gmail.com
                   <br />
                 </p>
               </div>
@@ -49,19 +48,19 @@ export default function Footer() {
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{' '}
-                    <a href="#">About us</a>
+                    <a href="#about">About us</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{' '}
-                    <a href="#">Services</a>
+                    <a href="#services">Services</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{' '}
-                    <a href="#">Terms of service</a>
+                    <a href="/tos">Terms of service</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{' '}
-                    <a href="#">Privacy policy</a>
+                    <a href="/policy">Privacy policy</a>
                   </li>
                 </ul>
               </div>
@@ -71,47 +70,45 @@ export default function Footer() {
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right"></i>{' '}
-                    <a href="#">Web Design</a>
+                    <a href="#">Tutoring</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{' '}
                     <a href="#">Web Development</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{' '}
-                    <a href="#">Product Management</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{' '}
-                    <a href="#">Marketing</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{' '}
-                    <a href="#">Graphic Design</a>
                   </li>
                 </ul>
               </div>
 
               <div className="col-lg-3 col-md-6 footer-links">
                 <h4>Our Social Networks</h4>
-                <p>
-                  Cras fermentum odio eu feugiat lide par naso tierra videa
-                  magna derita valies
-                </p>
+                <p>Follow us on social media</p>
                 <div className="social-links mt-3">
-                  <a href="#" className="twitter">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://twitter.com"
+                    className="twitter">
                     <i className="bx bxl-twitter"></i>
                   </a>
-                  <a href="#" className="facebook">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://facebook.com"
+                    className="facebook">
                     <i className="bx bxl-facebook"></i>
                   </a>
-                  <a href="#" className="instagram">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://instagram.com"
+                    className="instagram">
                     <i className="bx bxl-instagram"></i>
                   </a>
-                  <a href="#" className="google-plus">
-                    <i className="bx bxl-skype"></i>
-                  </a>
-                  <a href="#" className="linkedin">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://linkedin.com"
+                    className="linkedin">
                     <i className="bx bxl-linkedin"></i>
                   </a>
                 </div>
@@ -124,7 +121,7 @@ export default function Footer() {
           <div className="copyright">
             &copy; Copyright{' '}
             <strong>
-              <span>Arsha</span>
+              <span>RLD</span>
             </strong>
             . All Rights Reserved
           </div>
