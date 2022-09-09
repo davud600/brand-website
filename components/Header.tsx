@@ -78,7 +78,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="/login">
+              <a className="nav-link scrollto" href="#">
                 Log In
               </a>
             </li>
